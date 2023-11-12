@@ -1,0 +1,3 @@
+Cidade A, Cidade B, 50
+Cidade A, Cidade C, 15
+Cidade B, Cidade C, 5
