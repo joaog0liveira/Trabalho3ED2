@@ -23,7 +23,7 @@ public class InterfaceController {
 
     public void initialize() {
         // Inicializar o grafo ao iniciar a aplicação
-        graph = readGraphFromFile("D:\\Developer\\Trabalho3ED2\\src\\main\\java\\com\\example\\trabalho3ed2\\cidades.txt");
+        graph = readGraphFromFile("C:\\Users\\Breno Reis\\Documents\\Angular\\ProjetoAngular\\Trabalho3ED2\\src\\main\\java\\com\\example\\trabalho3ed2\\cidades.txt");
 
         // Preencher ComboBox com as cidades
         startCityComboBox.getItems().addAll(graph.keySet());

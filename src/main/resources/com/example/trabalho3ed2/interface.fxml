@@ -3,23 +3,54 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox spacing="10" xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.trabalho3ed2.InterfaceController">
-
-    <Label text="Selecione a cidade de início:" />
-    <ComboBox fx:id="startCityComboBox" />
-
-    <Label text="Selecione a cidade de destino:" />
-    <ComboBox fx:id="endCityComboBox" />
-
-    <HBox spacing="10">
-        <Label text="Menor Distância:" />
-        <Label fx:id="resultLabel" />
-    </HBox>
-
-    <Button text="Calcular Menor Caminho" onAction="#calculateShortestDistance" />
+<VBox prefHeight="257.0" prefWidth="325.0" spacing="10" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalho3ed2.InterfaceController">
+   <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <Pane prefHeight="257.0" prefWidth="325.0">
+            <children>
+               <ImageView fitHeight="257.0" fitWidth="325.0" pickOnBounds="true">
+                  <image>
+                     <Image url="@../../../img/bg.png" />
+                  </image>
+               </ImageView>
+            
+                <Label layoutX="77.0" layoutY="49.0" text="Selecione a cidade de início:" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Label>
+                <ComboBox fx:id="startCityComboBox" layoutX="88.0" layoutY="68.0" prefHeight="25.0" prefWidth="149.0" />
+            
+                <Label layoutX="77.0" layoutY="110.0" text="Selecione a cidade de destino:" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Label>
+                <ComboBox fx:id="endCityComboBox" layoutX="88.0" layoutY="129.0" prefHeight="25.0" prefWidth="149.0" />
+            
+                <Button layoutX="89.0" layoutY="219.0" onAction="#calculateShortestDistance" text="Calcular Menor Caminho" />
+                 <Label layoutX="77.0" layoutY="179.0" text="Menor Distância:" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Label>
+            
+                <HBox layoutX="186.0" layoutY="173.0" prefHeight="32.0" prefWidth="103.0" spacing="10">
+                    <Label fx:id="resultLabel" prefHeight="32.0" prefWidth="159.0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                </HBox>
+            </children>
+         </Pane>
+      </children>
+   </Pane>
 </VBox>

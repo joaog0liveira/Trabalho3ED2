@@ -1,13 +1,20 @@
-Belo Horizonte, São Paulo, 40
-São Paulo, Rio de Janeiro, 30
-Rio de Janeiro, Salvador, 50
-Salvador, Recife, 35
-Recife, Fortaleza, 60
-Fortaleza, Brasília, 45
-Brasília, Porto Alegre, 80
-Porto Alegre, Curitiba, 20
-Curitiba, Florianópolis, 30
-Florianópolis, Manaus, 25
-Manaus, Belém, 70
-Belém, São Luís, 55
-São Luís, Teresina, 40
+Belo Horizonte, São Paulo, 584
+São Paulo, Rio de Janeiro, 445
+Rio de Janeiro, Salvador, 1631
+Salvador, Recife, 807
+Recife, Fortaleza, 778
+Fortaleza, Brasília, 2117
+Brasília, Porto Alegre, 2116
+Porto Alegre, Curitiba, 741
+Curitiba, Florianópolis, 307
+Florianópolis, Manaus, 4322
+Manaus, Belém, 3063
+Belém, São Luís, 576
+São Luís, Teresina, 439
+Teresina, Cascavél, 1266
+Cascavél, Santa Helena, 1260
+Santa Helena, Dourados, 371
+Dourados, Angélica, 106
+Angélica, Londrina, 295
+Londrina, Bujari, 3282
+Bujari, Ponta Grossa, 3551
