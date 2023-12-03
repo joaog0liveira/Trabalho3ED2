@@ -1,3 +1,13 @@
-Cidade A, Cidade B, 50
-Cidade A, Cidade C, 15
-Cidade B, Cidade C, 5
+Belo Horizonte, São Paulo, 40
+São Paulo, Rio de Janeiro, 30
+Rio de Janeiro, Salvador, 50
+Salvador, Recife, 35
+Recife, Fortaleza, 60
+Fortaleza, Brasília, 45
+Brasília, Porto Alegre, 80
+Porto Alegre, Curitiba, 20
+Curitiba, Florianópolis, 30
+Florianópolis, Manaus, 25
+Manaus, Belém, 70
+Belém, São Luís, 55
+São Luís, Teresina, 40

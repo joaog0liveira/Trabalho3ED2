@@ -22,7 +22,6 @@ public class HelloApplication extends Application {
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.setTitle("Trabalho 3 ED2");
-            stage.setResizable(false);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
